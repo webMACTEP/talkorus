@@ -678,7 +678,7 @@ footer .wrapper {
   transition: 0.3s;
 }
 .about-info__item.active {
-  border-color: #dfdfdf;
+  border-color: #ececec;
 }
 .about-info__head {
   width: 100%;
