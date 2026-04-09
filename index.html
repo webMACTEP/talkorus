@@ -823,7 +823,7 @@
           <div class="swiper-pagination"></div>
         </div>
       </section>
-      <section class="content site-section">
+      <section class="site-section about-us">
         <div class="container">
           <div class="section-divider">
             <span class="line"></span>
@@ -834,13 +834,84 @@
 
             <span class="line"></span>
           </div>
-          <h2>Hello, World!</h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab modi
-            ullam ducimus maiores repellendus totam perspiciatis doloremque
-            inventore rem mollitia magnam eveniet non officiis, eligendi, sint
-            alias, assumenda exercitationem eius.
-          </p>
+
+          <h2>ТЕПЛОНАКОПИТЕЛЬНЫЕ КАМИНЫ И ПЕЧИ TALKORUS</h2>
+
+          <div class="wrapper">
+            <div class="about-us__info">
+              <div class="about-us__item">
+                <div class="about-us__icon">
+                  <img src="./img/about-icon-1.svg" alt="" />
+                </div>
+                <div class="about-us__content">
+                  <h3>Создание проекта бесплатно</h3>
+                  <span class="about-us__line"></span>
+                  <p>
+                    Если в каталоге не нашлось камина, который бы Вас устраивал,
+                    напишите нам. Мы создадим авторский проект по Вашему заказу.
+                  </p>
+                </div>
+              </div>
+
+              <div class="about-us__item">
+                <div class="about-us__icon">
+                  <img src="./img/about-icon-2.svg" alt="" />
+                </div>
+                <div class="about-us__content">
+                  <h3>Изготовление, отправка</h3>
+                  <span class="about-us__line"></span>
+                  <p>
+                    Всегда сообщаем реальные сроки изготовления. Предлагаем
+                    выгодные условия доставки.
+                  </p>
+                </div>
+              </div>
+
+              <div class="about-us__item">
+                <div class="about-us__icon">
+                  <img src="./img/about-icon-3.svg" alt="" />
+                </div>
+                <div class="about-us__content">
+                  <h3>Подключение, установка</h3>
+                  <span class="about-us__line"></span>
+                  <p>
+                    Работаем на рынке с 2010 года. За прошедшие годы
+                    сформировали широкую базу надёжных партнёров-монтажников в
+                    различных регионах России и СНГ. Мастера установят печь,
+                    дымоход — без переплат, с гарантией качества.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-us__media">
+              <a href="#" class="about-us__video">
+                <img src="./img/about-video-preview.jpg" alt="" />
+                <span class="about-us__play">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="117"
+                    height="117"
+                    viewBox="0 0 117 117"
+                    fill="none"
+                  >
+                    <circle
+                      opacity="0.2"
+                      cx="58.5"
+                      cy="58.5"
+                      r="58.5"
+                      fill="#FFBC3B"
+                    />
+                    <circle cx="58.5" cy="58.5" r="31.5" fill="#FFBC3B" />
+                    <path
+                      d="M66 56.7679C67.3333 57.5377 67.3333 59.4623 66 60.2321L56.25 65.8612C54.9167 66.631 53.25 65.6688 53.25 64.1292L53.25 52.8708C53.25 51.3312 54.9167 50.369 56.25 51.1388L66 56.7679Z"
+                      fill="white"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
         </div>
       </section>
     </main>
@@ -979,11 +1050,11 @@
         loop: true,
         speed: 800,
 
-        // autoplay: {
-        //   delay: 7000,
-        //   disableOnInteraction: false,
-        //   pauseOnMouseEnter: false,
-        // },
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: true,
+          pauseOnMouseEnter: false,
+        },
 
         pagination: {
           el: ".swiper-pagination",

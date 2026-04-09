@@ -424,7 +424,7 @@ footer .wrapper {
 .section-divider .line {
   flex: 1;
   height: 2px;
-  background: #B1B1B1;
+  background: #b1b1b1;
 }
 .section-divider__icon {
   flex-shrink: 0;
@@ -567,4 +567,98 @@ footer .wrapper {
 .hero-slider .swiper-button-next:after,
 .hero-slider .swiper-button-prev:after {
   font-size: 28px;
+}
+
+.about-us {
+  padding: 60px 0 80px;
+}
+.about-us h2 {
+  margin: 0 0 30px;
+}
+.about-us .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0px;
+}
+.about-us__info {
+  width: 100%;
+  max-width: 588px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+.about-us__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 26px;
+}
+.about-us__icon {
+  flex-shrink: 0;
+  width: 57px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.about-us__icon img {
+  width: 57px;
+  height: 57px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  display: block;
+}
+.about-us__content h3 {
+  margin: 0;
+}
+.about-us__content p {
+  margin: 0;
+  max-width: 430px;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.about-us__line {
+  display: block;
+  width: 95px;
+  height: 2px;
+  background: #a9613d;
+  margin: 20px 0;
+}
+.about-us__media {
+  width: 100%;
+  max-width: 852px;
+}
+.about-us__video {
+  position: relative;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.about-us__video img {
+  display: block;
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.about-us__play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  background: #ffbc3b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0 24px rgba(255, 188, 59, 0.2);
+  transition: 0.2s;
+}
+.about-us__video:hover .about-us__play {
+  transform: translate(-50%, -50%) scale(1.06);
 }/*# sourceMappingURL=style.css.map */
