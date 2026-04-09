@@ -794,4 +794,176 @@ footer .wrapper {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+.branded-stoves__wrapper {
+  display: grid;
+  grid-template-columns: minmax(840px, 540px) 1fr;
+  align-items: start;
+  gap: 0px;
+}
+.branded-stoves__content {
+  max-width: 840px;
+}
+.branded-stoves h2 {
+  margin: 0 0 8px;
+}
+.branded-stoves__subtitle {
+  margin-bottom: 30px;
+  color: #54595f;
+  font-family: "PT Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.branded-stoves__list {
+  margin: 0 0 30px;
+  padding: 0;
+  list-style: none;
+  counter-reset: branded-list;
+}
+.branded-stoves__list li {
+  counter-increment: branded-list;
+  display: flex;
+  align-items: flex-start;
+  gap: 21px;
+  margin-bottom: 26px;
+  color: #5f646d;
+  color: #54595f;
+  font-family: "PT Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.branded-stoves__list li::before {
+  content: counter(branded-list, decimal-leading-zero);
+  flex-shrink: 0;
+  color: #a9613d;
+  font-family: "PT Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.branded-stoves__list li:last-child {
+  margin-bottom: 0;
+}
+.branded-stoves__text {
+  margin-bottom: 30px;
+}
+.branded-stoves__text p {
+  margin: 0 0 22px;
+}
+.branded-stoves__text p:last-child {
+  margin-bottom: 0;
+}
+.branded-stoves__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 240px;
+  min-height: 60px;
+  padding: 18px 60px 19px 60px;
+  border-radius: 10px;
+  background: #ffbc3b;
+  color: #54595f;
+  text-align: center;
+  font-family: "PT Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+.branded-stoves__btn:hover {
+  background: #fdca6c;
+  transform: translateY(-2px);
+}
+.branded-stoves__media {
+  position: relative;
+  min-height: 710px;
+}
+.branded-stoves__media img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-height: 100%;
+  height: auto;
+  display: block;
+}
+
+.hotspot {
+  position: absolute;
+  z-index: 3;
+}
+.hotspot__dot {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  background: #ffbc3b;
+  cursor: pointer;
+  padding: 0;
+  z-index: 2;
+}
+.hotspot__dot::before {
+  content: "";
+  position: absolute;
+  inset: -20px;
+  border-radius: 50%;
+  background: rgba(255, 188, 59, 0.28);
+  z-index: -1;
+}
+.hotspot__tooltip {
+  z-index: 99;
+  position: absolute;
+  top: 120%;
+  transform: translateY(-50%);
+  min-width: 310px;
+  padding: 13px 25px 12px 25px;
+  border-radius: 20px 5px;
+  border: 2px solid #ffbc3b;
+  background: #fff;
+  box-shadow: 0 4px 19.3px 0 rgba(0, 0, 0, 0.1);
+  color: #6a6f77;
+  font-family: "PT Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.3;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.25s ease, visibility 0.25s ease, transform 0.25s ease;
+}
+.hotspot:hover .hotspot__tooltip, .hotspot.active .hotspot__tooltip {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.hotspot--1 {
+  top: 40px;
+  left: 310px;
+}
+.hotspot--1 .hotspot__tooltip {
+  left: auto;
+  right: 20px;
+}
+.hotspot--2 {
+  top: 200px;
+  right: 100px;
+}
+.hotspot--2 .hotspot__tooltip {
+  left: auto;
+  right: 20px;
+}
+.hotspot--3 {
+  top: 345px;
+  left: 220px;
+}
+.hotspot--3 .hotspot__tooltip {
+  left: auto;
+  right: 20px;
 }/*# sourceMappingURL=style.css.map */
