@@ -141,22 +141,44 @@ header .main-menu {
   border-top: 1px solid #b1b1b1;
   padding: 22px 0px;
 }
-header .search-call .call-back {
-  cursor: pointer;
+header .search-call {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
 }
-header .search-call .call-back .icon {
-  width: 19px;
-  height: 19px;
-  background-color: #000;
-  border-radius: 20px;
+header .search-call .search {
+  position: relative;
+  width: 333px;
+}
+header .search-call .search input {
+  width: 100%;
+  padding: 16px 56px 16px 20px;
+  border-radius: 10px;
+  border: 1px solid #b1b1b1;
+  outline: none;
+  color: #000;
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+header .search-call .search input::-webkit-search-cancel-button {
+  display: none;
+  -webkit-appearance: none;
+}
+header .search-call .search .search-icon {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
   display: flex;
   align-items: center;
   justify-content: center;
-}
-header .search-call .call-back:hover {
-  background: #fdca6c;
+  pointer-events: none;
 }
 header .search-call .call-back {
+  cursor: pointer;
   transition: 0.2s;
   border-radius: 10px;
   background: #ffbc3b;
@@ -170,22 +192,17 @@ header .search-call .call-back {
   color: #000;
   font-size: 18px;
 }
-header .search-call input {
-  width: 333px;
-  padding: 16px 20px 16px 20px;
-  border-radius: 10px;
-  border: 1px solid #b1b1b1;
-  color: #000;
-  font-family: "PT Sans";
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-header .search-call {
+header .search-call .call-back .icon {
+  width: 19px;
+  height: 19px;
+  background-color: #000;
+  border-radius: 20px;
   display: flex;
-  flex-direction: column;
-  gap: 9px;
+  align-items: center;
+  justify-content: center;
+}
+header .search-call .call-back:hover {
+  background: #fdca6c;
 }
 header .messgrs {
   display: flex;
@@ -395,6 +412,34 @@ footer .wrapper {
   border-top: 1px solid #b1b1b1;
   padding: 40px 0px 40px 0px;
   margin: 90px 0px 0px 0px;
+}
+
+.section-divider {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  width: 100%;
+  margin: 90px 0px 30px 0px;
+}
+.section-divider .line {
+  flex: 1;
+  height: 2px;
+  background: #B1B1B1;
+}
+.section-divider__icon {
+  flex-shrink: 0;
+  width: 48px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-divider__icon img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .hero-slider {
