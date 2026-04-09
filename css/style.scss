@@ -749,48 +749,47 @@ footer {
         grid-template-columns: repeat(3, 1fr);
         gap: 27px;
     }
-}
+    .catalog-card {
+        border-radius: 20px;
+        border: 1px solid #e0e0e0;
+        background: #fff;
+        padding: 13px 0px 39px;
+        text-decoration: none;
+        transition:
+            transform 0.25s ease,
+            box-shadow 0.25s ease,
+            border-color 0.25s ease;
 
-.catalog-card {
-    border-radius: 20px;
-    border: 1px solid #e0e0e0;
-    background: #fff;
-    padding: 13px 0px 39px;
-    text-decoration: none;
-    transition:
-        transform 0.25s ease,
-        box-shadow 0.25s ease,
-        border-color 0.25s ease;
-
-    &:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
-        border-color: #c8c8c8;
-    }
-
-    &__image {
-        height: 360px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 26px;
-
-        img {
-            max-width: 100%;
-            max-height: 100%;
-            object-fit: contain;
-            display: block;
-            border-radius: 20px;
+        &:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+            border-color: #c8c8c8;
         }
-    }
 
-    &__title {
-        color: #54595f;
-        text-align: center;
-        font-family: "PT Sans";
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
+        &__image {
+            height: 360px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 26px;
+
+            img {
+                max-width: 100%;
+                max-height: 100%;
+                object-fit: contain;
+                display: block;
+                border-radius: 20px;
+            }
+        }
+
+        &__title {
+            color: #54595f;
+            text-align: center;
+            font-family: "PT Sans";
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
     }
 }

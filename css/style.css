@@ -758,8 +758,7 @@ footer .wrapper {
   grid-template-columns: repeat(3, 1fr);
   gap: 27px;
 }
-
-.catalog-card {
+.catalog-section .catalog-card {
   border-radius: 20px;
   border: 1px solid #e0e0e0;
   background: #fff;
@@ -767,19 +766,19 @@ footer .wrapper {
   text-decoration: none;
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
-.catalog-card:hover {
+.catalog-section .catalog-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
   border-color: #c8c8c8;
 }
-.catalog-card__image {
+.catalog-section .catalog-card__image {
   height: 360px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 26px;
 }
-.catalog-card__image img {
+.catalog-section .catalog-card__image img {
   max-width: 100%;
   max-height: 100%;
   -o-object-fit: contain;
@@ -787,7 +786,7 @@ footer .wrapper {
   display: block;
   border-radius: 20px;
 }
-.catalog-card__title {
+.catalog-section .catalog-card__title {
   color: #54595f;
   text-align: center;
   font-family: "PT Sans";
