@@ -551,6 +551,7 @@ footer .wrapper {
   bottom: 28px;
 }
 .hero-slider .swiper-pagination-bullet {
+  margin: 0px 7px !important;
   width: 18px;
   height: 18px;
   opacity: 1;
@@ -966,4 +967,186 @@ footer .wrapper {
 .hotspot--3 .hotspot__tooltip {
   left: auto;
   right: 20px;
+}
+
+.bath-stoves__wrapper {
+  grid-template-columns: minmax(557px, 664px) 1fr;
+  align-items: start;
+  gap: 0px;
+  margin-bottom: 57px;
+}
+.bath-stoves .branded-stoves__subtitle {
+  margin-bottom: 20px;
+}
+.bath-stoves .branded-stoves__list li {
+  color: #54595f;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  gap: 25px;
+  margin-bottom: 21px;
+}
+.bath-stoves .branded-stoves__list li::before {
+  font-size: 16px;
+}
+.bath-stoves__media {
+  min-height: 504px;
+}
+.bath-stoves__media img {
+  left: 0;
+  right: auto;
+  bottom: 0;
+  max-width: 100%;
+}
+.bath-stoves__content {
+  max-width: 787px;
+  padding-top: 0px;
+}
+.bath-stoves__lead {
+  margin-bottom: 20px;
+  color: #54595f;
+  font-family: "PT Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bath-stoves__list {
+  margin-bottom: 24px;
+}
+.bath-stoves__desc {
+  margin-bottom: 20px;
+  color: #54595f;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.bath-stoves__features-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 34px 70px;
+}
+.bath-stoves__features-col {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.bath-stoves__feature-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+  color: #54595f;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.bath-stoves__feature-row strong {
+  font-weight: 700;
+}
+.bath-stoves__num {
+  flex-shrink: 0;
+  color: #a9613d;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bath-stoves__bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 38px;
+}
+.bath-stoves__stats {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: stretch;
+}
+.bath-stoves__stat {
+  min-height: 118px;
+  padding: 0 28px;
+  border-right: 1px solid #d1d1d1;
+}
+.bath-stoves__stat:last-child {
+  border-right: none;
+}
+.bath-stoves__stat-value {
+  margin-bottom: 8px;
+  color: #a9613d;
+  font-family: "PT Sans";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bath-stoves__stat-icon {
+  margin-bottom: 14px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+}
+.bath-stoves__stat-icon img {
+  max-width: 48px;
+  max-height: 48px;
+  display: block;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.bath-stoves__stat-text {
+  color: #000;
+  font-family: "PT Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.3;
+}
+.bath-stoves__btn {
+  min-width: 255px;
+}
+.bath-stoves__hotspot--1 {
+  top: 110px;
+  left: 55px;
+}
+.bath-stoves__hotspot--1 .hotspot__tooltip {
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+}
+.bath-stoves__hotspot--2 {
+  top: 140px;
+  left: 520px;
+}
+.bath-stoves__hotspot--2 .hotspot__tooltip {
+  top: 50%;
+  left: auto;
+  right: 20px;
+  transform: translateY(-50%);
+}
+.bath-stoves__hotspot--3 {
+  top: 385px;
+  left: 150px;
+}
+.bath-stoves__hotspot--3 .hotspot__tooltip {
+  top: 50%;
+  left: auto;
+  right: 20px;
+  transform: translateY(-50%);
+}
+.bath-stoves__hotspot--4 {
+  top: 390px;
+  left: 455px;
+}
+.bath-stoves__hotspot--4 .hotspot__tooltip {
+  top: 50%;
+  left: auto;
+  right: 20px;
+  transform: translateY(-50%);
 }/*# sourceMappingURL=style.css.map */
