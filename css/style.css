@@ -951,6 +951,7 @@ footer .wrapper {
   left: 310px;
 }
 .hotspot--1 .hotspot__tooltip {
+  top: 70px;
   left: auto;
   right: 20px;
 }
@@ -967,6 +968,7 @@ footer .wrapper {
   left: 220px;
 }
 .hotspot--3 .hotspot__tooltip {
+  top: 70px;
   left: auto;
   right: 20px;
 }
@@ -1130,7 +1132,7 @@ footer .wrapper {
   left: 485px;
 }
 .bath-stoves__hotspot--2 .hotspot__tooltip {
-  top: 100%;
+  top: 60px;
   left: auto;
   right: 20px;
   transform: translateY(-50%);
@@ -1151,7 +1153,7 @@ footer .wrapper {
   left: 427px;
 }
 .bath-stoves__hotspot--4 .hotspot__tooltip {
-  top: 100%;
+  top: 56px;
   left: auto;
   right: 20px;
   transform: translateY(-50%);
