@@ -1231,7 +1231,7 @@ footer .wrapper {
 
 .project-card {
   border-radius: 20px;
-  border: 1px solid #E0E0E0;
+  border: 1px solid #e0e0e0;
   background: #fff;
   padding: 16px 16px 18px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -1286,14 +1286,14 @@ footer .wrapper {
   padding: 0 6px;
 }
 .project-card h3 {
-  margin: 0 0 14px;
-  color: #5f646d;
+  margin: 0 0 13px;
+  color: #54595f;
   text-align: center;
   font-family: "PT Sans";
-  font-size: 19px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.25;
+  line-height: normal;
 }
 .project-card__bottom {
   display: flex;
@@ -1304,16 +1304,18 @@ footer .wrapper {
 .project-card__date {
   display: flex;
   align-items: center;
-  gap: 8px;
-  color: #7b7b7b;
+  gap: 10px;
+  color: #54595f;
   font-family: "PT Sans";
   font-size: 15px;
+  font-style: normal;
   font-weight: 400;
+  line-height: normal;
   white-space: nowrap;
 }
 .project-card__btn {
-  min-width: 128px;
-  height: 40px;
+  min-width: 158px;
+  height: 42px;
   padding: 10px 20px;
   border-radius: 10px;
   background: #ffbc3b;
@@ -1321,11 +1323,13 @@ footer .wrapper {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  color: #6a6f77;
+  color: #54595f;
   text-align: center;
   font-family: "PT Sans";
   font-size: 16px;
+  font-style: normal;
   font-weight: 400;
+  line-height: normal;
   transition: background 0.2s ease, transform 0.2s ease;
 }
 .project-card__btn:hover {
