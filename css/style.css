@@ -1186,8 +1186,8 @@ footer .wrapper {
   transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 .projects-section__more-btn:hover {
-  background: #f3f3f3;
-  border-color: #5f646d;
+  background: #ffbc3b;
+  border-color: #ffbc3b;
 }
 
 .projects-section .project-card {
@@ -1231,8 +1231,8 @@ footer .wrapper {
 
 .project-card {
   border-radius: 20px;
-  border: 1px solid #d6d6d6;
-  background: #f8f8f8;
+  border: 1px solid #E0E0E0;
+  background: #fff;
   padding: 16px 16px 18px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
