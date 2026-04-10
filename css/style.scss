@@ -63,7 +63,7 @@ header {
             justify-content: space-between;
             gap: 10px;
         }
-        margin: 36px 0px 0px 0px;
+        margin: 23px 0px 0px 0px;
         border-top: 1px solid #b1b1b1;
         padding: 22px 0px;
     }
@@ -198,7 +198,7 @@ header {
         justify-content: space-between;
         gap: 10px;
     }
-    padding: 20px 0px 22px 0px;
+    padding: 20px 0px 0px 0px;
 }
 footer {
     .menus {
@@ -379,7 +379,7 @@ footer {
 
     .heroSwiper {
         width: 100%;
-        height: calc(100vh - 288px);
+        height: calc(100vh - 252px);
         //height: 840px;
         position: relative;
         overflow: hidden;
