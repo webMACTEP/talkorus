@@ -38,4 +38,43 @@ $(document).ready(function () {
   $(document).on("click", function () {
     $(".hotspot").removeClass("active");
   });
+
+  if ($(".heroSwiper").length) {
+    new Swiper(".heroSwiper", {
+      loop: true,
+      speed: 800,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: true,
+        pauseOnMouseEnter: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  }
+
+  $(".project-card").each(function () {
+    const slider = $(this).find(".project-card__slider")[0];
+    const nextBtn = $(this).find(".project-card__nav--next")[0];
+    const prevBtn = $(this).find(".project-card__nav--prev")[0];
+
+    if (slider) {
+      new Swiper(slider, {
+        loop: true,
+        speed: 600,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        navigation: {
+          nextEl: nextBtn,
+          prevEl: prevBtn,
+        },
+      });
+    }
+  });
 });
