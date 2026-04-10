@@ -1256,6 +1256,7 @@ footer .wrapper {
   display: block;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 10px;
 }
 .project-card__nav {
   position: absolute;
