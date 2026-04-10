@@ -274,6 +274,7 @@ footer .menus {
   display: flex;
   flex-direction: column;
   gap: 17px;
+  margin-left: 20px;
 }
 footer .menus .site-map {
   color: #a9613d;
@@ -296,7 +297,7 @@ footer .menus nav ul {
   gap: 14px;
 }
 footer .menus nav {
-  margin-top: 3px;
+  margin-top: 2px;
 }
 footer .menus nav a {
   color: #54595f;
@@ -324,6 +325,7 @@ footer .menus h2 {
 }
 footer .contacts {
   margin-top: 42px;
+  margin-left: 20px;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -363,7 +365,7 @@ footer .contacts .messgrs img {
 footer .infos {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 14px;
 }
 footer .infos .karelia {
   display: flex;
@@ -410,14 +412,14 @@ footer .wrapper {
   justify-content: space-between;
   gap: 10px;
   border-top: 1px solid #b1b1b1;
-  padding: 40px 0px 40px 0px;
+  padding: 40px 10px 40px 0px;
   margin: 90px 0px 0px 0px;
 }
 
 .section-divider {
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 24px;
   width: 100%;
   margin: 90px 0px 30px 0px;
 }
@@ -571,7 +573,7 @@ footer .wrapper {
 }
 
 .about-us {
-  padding: 60px 0 80px;
+  padding: 60px 0 0px;
 }
 .about-us h2 {
   margin: 0 0 30px;
@@ -777,7 +779,7 @@ footer .wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 26px;
+  margin-bottom: 17px;
 }
 .catalog-section .catalog-card__image img {
   max-width: 100%;
@@ -855,7 +857,7 @@ footer .wrapper {
   margin-bottom: 30px;
 }
 .branded-stoves__text p {
-  margin: 0 0 22px;
+  margin: 0 0 21px;
 }
 .branded-stoves__text p:last-child {
   margin-bottom: 0;
@@ -923,7 +925,7 @@ footer .wrapper {
   position: absolute;
   top: 120%;
   transform: translateY(-50%);
-  min-width: 310px;
+  min-width: 244px;
   padding: 13px 25px 12px 25px;
   border-radius: 20px 5px;
   border: 2px solid #ffbc3b;
@@ -953,8 +955,8 @@ footer .wrapper {
   right: 20px;
 }
 .hotspot--2 {
-  top: 200px;
-  right: 100px;
+  top: 215px;
+  right: 110px;
 }
 .hotspot--2 .hotspot__tooltip {
   left: auto;
@@ -970,13 +972,13 @@ footer .wrapper {
 }
 
 .bath-stoves__wrapper {
-  grid-template-columns: minmax(557px, 650px) 1fr;
+  grid-template-columns: minmax(557px, 653px) 1fr;
   align-items: start;
   gap: 0px;
-  margin-bottom: 57px;
+  margin-bottom: 50px;
 }
 .bath-stoves .branded-stoves__subtitle {
-  margin-bottom: 20px;
+  margin-bottom: 19px;
 }
 .bath-stoves .branded-stoves__list li {
   color: #54595f;
@@ -997,7 +999,7 @@ footer .wrapper {
 .bath-stoves__media img {
   left: 0;
   right: auto;
-  bottom: 0;
+  bottom: -10px;
   max-width: 100%;
 }
 .bath-stoves__content {
@@ -1014,7 +1016,7 @@ footer .wrapper {
   line-height: normal;
 }
 .bath-stoves__list {
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 .bath-stoves__desc {
   margin-bottom: 20px;
@@ -1028,12 +1030,12 @@ footer .wrapper {
 .bath-stoves__features-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 34px 70px;
+  gap: 34px 128px;
 }
 .bath-stoves__features-col {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 20px;
 }
 .bath-stoves__feature-row {
   display: flex;
@@ -1124,7 +1126,7 @@ footer .wrapper {
   transform: translateY(-50%);
 }
 .bath-stoves__hotspot--2 {
-  top: 80px;
+  top: 90px;
   left: 485px;
 }
 .bath-stoves__hotspot--2 .hotspot__tooltip {
@@ -1134,8 +1136,8 @@ footer .wrapper {
   transform: translateY(-50%);
 }
 .bath-stoves__hotspot--3 {
-  top: 300px;
-  left: 140px;
+  top: 307px;
+  left: 143px;
 }
 .bath-stoves__hotspot--3 .hotspot__tooltip {
   top: auto;
@@ -1145,8 +1147,8 @@ footer .wrapper {
   transform: translateY(-50%);
 }
 .bath-stoves__hotspot--4 {
-  top: 300px;
-  left: 425px;
+  top: 311px;
+  left: 427px;
 }
 .bath-stoves__hotspot--4 .hotspot__tooltip {
   top: 100%;
@@ -1156,7 +1158,7 @@ footer .wrapper {
 }
 
 .projects-section h2 {
-  margin: 0 0 30px;
+  margin: 58px 0 30px;
 }
 .projects-section__grid {
   display: grid;
@@ -1169,8 +1171,8 @@ footer .wrapper {
   justify-content: center;
 }
 .projects-section__more-btn {
-  min-width: 208px;
-  min-height: 54px;
+  min-width: 241px;
+  min-height: 58px;
   padding: 15px 36px;
   border-radius: 10px;
   border: 1px solid #7f7f7f;
@@ -1198,7 +1200,7 @@ footer .wrapper {
   position: relative;
   width: 100%;
   min-width: 0;
-  height: 300px;
+  height: 367px;
   border-radius: 12px;
   overflow: hidden;
   margin-bottom: 16px;
@@ -1285,7 +1287,7 @@ footer .wrapper {
   right: 18px;
 }
 .project-card__body {
-  padding: 0 6px;
+  padding: 0;
 }
 .project-card h3 {
   margin: 0 0 13px;
@@ -1316,7 +1318,7 @@ footer .wrapper {
   white-space: nowrap;
 }
 .project-card__btn {
-  min-width: 158px;
+  min-width: 157px;
   height: 42px;
   padding: 10px 20px;
   border-radius: 10px;

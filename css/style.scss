@@ -205,6 +205,7 @@ footer {
         display: flex;
         flex-direction: column;
         gap: 17px;
+        margin-left: 20px;
         .site-map {
             color: #a9613d;
             font-family: "PT Sans";
@@ -225,7 +226,7 @@ footer {
                 flex-direction: column;
                 gap: 14px;
             }
-            margin-top: 3px;
+            margin-top: 2px;
             a {
                 color: #54595f;
                 font-family: "PT Sans";
@@ -252,6 +253,7 @@ footer {
     }
     .contacts {
         margin-top: 42px;
+        margin-left: 20px;
         display: flex;
         flex-direction: column;
         gap: 16px;
@@ -291,7 +293,7 @@ footer {
     .infos {
         display: flex;
         flex-direction: column;
-        gap: 15px;
+        gap: 14px;
         .karelia {
             display: flex;
             align-items: center;
@@ -340,14 +342,14 @@ footer {
         justify-content: space-between;
         gap: 10px;
         border-top: 1px solid #b1b1b1;
-        padding: 40px 0px 40px 0px;
+        padding: 40px 10px 40px 0px;
         margin: 90px 0px 0px 0px;
     }
 }
 .section-divider {
     display: flex;
     align-items: center;
-    gap: 32px;
+    gap: 24px;
     width: 100%;
     //margin-bottom: 30px;
     margin: 90px 0px 30px 0px;
@@ -524,7 +526,7 @@ footer {
     }
 }
 .about-us {
-    padding: 60px 0 80px;
+    padding: 60px 0 0px;
 
     h2 {
         margin: 0 0 30px;
@@ -772,7 +774,7 @@ footer {
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-bottom: 26px;
+            margin-bottom: 17px;
 
             img {
                 max-width: 100%;
@@ -862,7 +864,7 @@ footer {
         margin-bottom: 30px;
 
         p {
-            margin: 0 0 22px;
+            margin: 0 0 21px;
 
             &:last-child {
                 margin-bottom: 0;
@@ -942,7 +944,7 @@ footer {
         //left: -290px;
         //right: 0;
         transform: translateY(-50%);
-        min-width: 310px;
+        min-width: 244px;
         //padding: 18px 26px;
         padding: 13px 25px 12px 25px;
         border-radius: 20px 5px;
@@ -983,8 +985,8 @@ footer {
     }
 
     &--2 {
-        top: 200px;
-        right: 100px;
+        top: 215px;
+        right: 110px;
 
         .hotspot__tooltip {
             left: auto;
@@ -1004,13 +1006,13 @@ footer {
 }
 .bath-stoves {
     &__wrapper {
-        grid-template-columns: minmax(557px, 650px) 1fr;
+        grid-template-columns: minmax(557px, 653px) 1fr;
         align-items: start;
         gap: 0px;
-        margin-bottom: 57px;
+        margin-bottom: 50px;
     }
     .branded-stoves__subtitle {
-        margin-bottom: 20px;
+        margin-bottom: 19px;
     }
     .branded-stoves__list li {
         color: #54595f;
@@ -1032,7 +1034,7 @@ footer {
         img {
             left: 0;
             right: auto;
-            bottom: 0;
+            bottom: -10px;
             max-width: 100%;
         }
     }
@@ -1053,7 +1055,7 @@ footer {
     }
 
     &__list {
-        margin-bottom: 24px;
+        margin-bottom: 20px;
     }
 
     &__desc {
@@ -1069,13 +1071,13 @@ footer {
     &__features-list {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 34px 70px;
+        gap: 34px 128px;
     }
 
     &__features-col {
         display: flex;
         flex-direction: column;
-        gap: 24px;
+        gap: 20px;
     }
 
     &__feature-row {
@@ -1183,7 +1185,7 @@ footer {
         }
 
         &--2 {
-            top: 80px;
+            top: 90px;
             left: 485px;
 
             .hotspot__tooltip {
@@ -1195,8 +1197,8 @@ footer {
         }
 
         &--3 {
-            top: 300px;
-            left: 140px;
+            top: 307px;
+            left: 143px;
 
             .hotspot__tooltip {
                 //top: 0%;
@@ -1209,8 +1211,8 @@ footer {
         }
 
         &--4 {
-            top: 300px;
-            left: 425px;
+            top: 311px;
+            left: 427px;
 
             .hotspot__tooltip {
                 top: 100%;
@@ -1223,7 +1225,7 @@ footer {
 }
 .projects-section {
     h2 {
-        margin: 0 0 30px;
+        margin: 58px 0 30px;
     }
 
     &__grid {
@@ -1239,8 +1241,8 @@ footer {
     }
 
     &__more-btn {
-        min-width: 208px;
-        min-height: 54px;
+        min-width: 241px;
+        min-height: 58px;
         padding: 15px 36px;
         border-radius: 10px;
         border: 1px solid #7f7f7f;
@@ -1275,7 +1277,7 @@ footer {
         position: relative;
         width: 100%;
         min-width: 0;
-        height: 300px;
+        height: 367px;
         border-radius: 12px;
         overflow: hidden;
         margin-bottom: 16px;
@@ -1376,7 +1378,7 @@ footer {
     }
 
     &__body {
-        padding: 0 6px;
+        padding: 0 ;
     }
 
     h3 {
@@ -1411,7 +1413,7 @@ footer {
     }
 
     &__btn {
-        min-width: 158px;
+        min-width: 157px;
         height: 42px;
         padding: 10px 20px;
         border-radius: 10px;
