@@ -722,7 +722,7 @@
     border-color: #c8c8c8;
   }
   .catalog-section .catalog-card__image {
-    height: 280px;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1052,7 +1052,7 @@
     font: 400 13px/1 "PT Sans";
   }
   .bath-stoves__btn {
-    min-width: 240px;
+    min-width: 168px;
   }
   .bath-stoves__hotspot--1 {
     top: 60px;
