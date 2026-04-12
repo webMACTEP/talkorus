@@ -1,5 +1,5 @@
-/* tablet */
-@media (min-width: 768px) and (max-width: 1439px) {
+/* desktop */
+@media (min-width: 1440px) {
   body {
     color: #54595f;
     font-family: "PT Sans", sans-serif;
@@ -10,7 +10,7 @@
   }
   .container {
     max-width: 1440px;
-    margin: 0px 15px;
+    margin: 0px auto;
   }
   h1 {
     color: #a9613d;
@@ -24,23 +24,25 @@
   h2 {
     color: #a9613d;
     font-family: "PT Sans";
-    font-size: 20px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    text-align: center;
   }
   h3 {
     color: #54595f;
     font-family: "PT Sans";
-    font-size: 20px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
   }
+  header .logo-mob {
+    display: none;
+  }
   header .burger {
-    margin-left: 12px;
+    display: none;
   }
   header .main-menu ul a {
     transition: 0.2s;
@@ -66,15 +68,13 @@
     margin: 23px 0px 0px 0px;
     border-top: 1px solid #b1b1b1;
     padding: 22px 0px;
-    display: none;
   }
   header .search-call {
     display: flex;
     flex-direction: column;
-    gap: 0px;
+    gap: 9px;
   }
   header .search-call .search {
-    display: none;
     position: relative;
     width: 333px;
   }
@@ -108,20 +108,22 @@
   header .search-call .call-back {
     cursor: pointer;
     transition: 0.2s;
-    border-radius: 25px;
+    border-radius: 10px;
     background: #ffbc3b;
     display: flex;
-    width: 24px;
-    height: 24px;
+    width: 333px;
+    height: 50px;
+    padding: 14px 10px 13px 10px;
     justify-content: center;
     align-items: center;
-    gap: 0px;
+    gap: 6px;
     color: #000;
-    font-size: 0;
+    font-size: 18px;
   }
   header .search-call .call-back .icon {
-    width: 11px;
-    height: 11px;
+    width: 19px;
+    height: 19px;
+    background-color: #000;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -131,21 +133,19 @@
     background: #fdca6c;
   }
   header .messgrs {
-    margin-left: auto;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 15px;
   }
   header .messgrs a {
     display: flex;
     align-items: center;
   }
-  header .messgrs svg,
   header .messgrs img {
-    max-width: 24px;
+    max-width: 56px;
   }
   header .phone {
-    display: none;
+    display: flex;
     flex-direction: column;
   }
   header .phone a {
@@ -173,7 +173,6 @@
     line-height: normal;
   }
   header .title {
-    display: none;
     color: #000;
     text-align: center;
     font-family: "PT Sans";
@@ -186,9 +185,6 @@
     font-size: 20px;
     margin-bottom: 5px;
   }
-  header .logo {
-    display: none;
-  }
   header .logo img {
     height: 130px;
   }
@@ -196,19 +192,19 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 8px;
+    gap: 10px;
   }
   header {
-    padding: 10px 0px 23px 0px;
+    padding: 20px 0px 0px 0px;
   }
   footer .menus {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 17px;
+    margin-left: 20px;
   }
   footer .menus .site-map {
     margin-top: auto;
-    margin-bottom: 4px;
     color: #a9613d;
     font-family: "PT Sans";
     font-size: 14px;
@@ -239,14 +235,13 @@
     font-weight: 400;
     line-height: normal;
     transition: 0.2s;
-    text-wrap: nowrap;
   }
   footer .menus nav a:hover {
     color: #a9613d;
   }
   footer .menus nav {
     display: flex;
-    gap: 20px;
+    gap: 50px;
   }
   footer .menus h2 {
     color: #a9613d;
@@ -257,9 +252,11 @@
     line-height: normal;
   }
   footer .contacts {
+    margin-top: 42px;
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 16px;
   }
   footer .contacts .icon {
     width: 20px;
@@ -290,13 +287,10 @@
     display: flex;
     align-items: center;
   }
-  footer .contacts .messgrs svg,
   footer .contacts .messgrs img {
-    max-width: 27px;
-    max-height: 27px;
+    max-width: 42px;
   }
   footer .infos {
-    max-width: 200px;
     display: flex;
     flex-direction: column;
     gap: 14px;
@@ -307,19 +301,19 @@
     gap: 20px;
     color: #a9613d;
     font-family: "PT Sans";
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
   }
   footer .infos .karelia img {
-    max-width: 65px;
+    max-width: 115px;
   }
   footer .infos .politic {
     margin-top: 5px;
     color: #a9613d;
     font-family: "PT Sans";
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -328,33 +322,33 @@
     text-decoration: underline;
   }
   footer .infos .adress {
-    font-size: 11px;
+    font-size: 14px;
   }
   footer .infos h2 {
     color: #54595f;
     font-family: "PT Sans";
-    font-size: 14px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
   }
   footer .logo img {
-    max-width: 103px;
+    max-width: 203px;
   }
   footer .wrapper {
     display: flex;
     justify-content: space-between;
     gap: 10px;
     border-top: 1px solid #b1b1b1;
-    padding: 20px 0px 20px 0px;
-    margin: 65px 0px 0px 0px;
+    padding: 40px 10px 40px 0px;
+    margin: 90px 0px 0px 0px;
   }
   .section-divider {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 24px;
     width: 100%;
-    margin: 50px 0px 20px 0px;
+    margin: 90px 0px 30px 0px;
   }
   .section-divider .line {
     flex: 1;
@@ -363,8 +357,8 @@
   }
   .section-divider__icon {
     flex-shrink: 0;
-    width: 28px;
-    height: 38px;
+    width: 48px;
+    height: 64px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -381,7 +375,7 @@
   }
   .hero-slider .heroSwiper {
     width: 100%;
-    height: calc(100vh - 89px);
+    height: calc(100vh - 252px);
     position: relative;
     overflow: hidden;
   }
@@ -392,7 +386,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    padding: 15px;
+    padding: 80px;
     height: 100%;
     background-size: cover;
     background-position: center;
@@ -413,30 +407,22 @@
   .hero-slider .slide-content ul li {
     display: flex;
     align-items: center;
-    gap: 8px;
-    width: -moz-fit-content;
-    width: fit-content;
-    font-size: 14px;
-  }
-  .hero-slider .slide-content ul li img {
-    width: 16px;
-    height: 16px;
-  }
-  .hero-slider .slide-content ul li br {
-    display: none;
+    gap: 15px;
+    width: 253px;
   }
   .hero-slider .slide-content ul {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
     max-width: 540px;
-    gap: 14px;
+    gap: 25px;
   }
   .hero-slider .slide-content {
-    min-height: 250px;
+    min-height: 356px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 11px;
+    gap: 34px;
     position: relative;
     z-index: 2;
     width: 100%;
@@ -455,13 +441,12 @@
   .hero-slider .slide-content h2 {
     color: #fff;
     font-family: "PT Sans";
-    font-size: 24px;
+    font-size: 52px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
     max-width: 630px;
-    text-align: left;
   }
   .hero-slider .slide-content p {
     color: #fff;
@@ -472,17 +457,17 @@
     line-height: normal;
   }
   .hero-slider .slide-btn {
-    margin-top: 14px;
+    margin-top: 16px;
     border-radius: 10px;
     background: #ffbc3b;
     display: inline-flex;
-    padding: 12px 32px 13px 31px;
+    padding: 18px 47px 19px 48px;
     justify-content: center;
     align-items: center;
     color: #000;
     text-align: center;
     font-family: "PT Sans";
-    font-size: 13px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -510,23 +495,23 @@
   }
   .hero-slider .swiper-button-next:after,
   .hero-slider .swiper-button-prev:after {
-    font-size: 0;
+    font-size: 28px;
   }
   .about-us h2 {
     margin: 0 0 30px;
   }
   .about-us .wrapper {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 30px;
+    gap: 0px;
   }
   .about-us__info {
     width: 100%;
+    max-width: 588px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 27px;
   }
   .about-us__item {
     display: flex;
@@ -553,13 +538,11 @@
   .about-us__content h3 {
     margin: 0;
   }
-  .about-us__content p br {
-    display: none;
-  }
   .about-us__content p {
     margin: 0;
+    max-width: 430px;
     font-family: "PT Sans";
-    font-size: 13px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -573,6 +556,7 @@
   }
   .about-us__media {
     width: 100%;
+    max-width: 852px;
   }
   .about-us__video {
     position: relative;
@@ -628,8 +612,8 @@
     background: #ececec;
     display: flex;
     align-items: center;
-    gap: 20px;
-    padding: 30px 25px 29px 20px;
+    gap: 30px;
+    padding: 18px 35px 17px 35px;
     text-align: left;
     cursor: pointer;
     transition: 0.3s;
@@ -639,8 +623,8 @@
   }
   .about-info__icon {
     flex-shrink: 0;
-    width: 24px;
-    height: 24px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background: #fff;
     display: flex;
@@ -648,8 +632,6 @@
     justify-content: center;
   }
   .about-info__icon svg {
-    width: 14px;
-    height: 14px;
     transition: transform 0.3s ease;
   }
   .about-info__item.active .about-info__icon svg {
@@ -661,7 +643,7 @@
   .about-info__title {
     color: #54595f;
     font-family: "PT Sans";
-    font-size: 16px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -673,13 +655,13 @@
     transition: max-height 0.4s ease, padding 0.4s ease;
   }
   .about-info__content {
-    padding: 20px;
+    padding: 25px 35px 25px 105px;
   }
   .about-info__content p {
-    margin: 0 0 14px;
+    margin: 0 0 22px;
     color: #54595f;
     font-family: "PT Sans";
-    font-size: 13px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -688,20 +670,14 @@
     margin-bottom: 0;
   }
   .catalog-section__head {
-    margin-bottom: 33px;
+    margin-bottom: 30px;
   }
   .catalog-section__head h2 {
-    margin: 0 0 20px;
+    margin: 0 0 10px;
   }
   .catalog-section__head p {
-    color: #54595f;
-    text-align: center;
-    font-family: "PT Sans";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: uppercase;
+    margin: 0;
+    font-size: 32px;
   }
   .catalog-section__grid {
     display: grid;
@@ -712,7 +688,7 @@
     border-radius: 20px;
     border: 1px solid #e0e0e0;
     background: #fff;
-    padding: 13px 0px 20px;
+    padding: 13px 0px 39px;
     text-decoration: none;
     transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
   }
@@ -722,16 +698,17 @@
     border-color: #c8c8c8;
   }
   .catalog-section .catalog-card__image {
-    height: 280px;
+    height: 360px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 17px;
   }
   .catalog-section .catalog-card__image img {
+    max-width: 100%;
     max-height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    -o-object-fit: contain;
+       object-fit: contain;
     display: block;
     border-radius: 20px;
   }
@@ -739,35 +716,31 @@
     color: #54595f;
     text-align: center;
     font-family: "PT Sans";
-    font-size: 16px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
   }
   .branded-stoves__wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: minmax(840px, 540px) 1fr;
+    align-items: start;
     gap: 0px;
   }
   .branded-stoves__content {
     max-width: 840px;
   }
   .branded-stoves h2 {
-    margin: 0 0 20px;
-    position: relative;
+    margin: 0 0 8px;
   }
   .branded-stoves__subtitle {
-    position: relative;
     margin-bottom: 30px;
     color: #54595f;
-    text-align: center;
     font-family: "PT Sans";
-    font-size: 16px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-transform: uppercase;
   }
   .branded-stoves__list {
     margin: 0 0 30px;
@@ -921,8 +894,8 @@
     right: 20px;
   }
   .bath-stoves__wrapper {
-    display: flex;
-    flex-direction: column-reverse;
+    grid-template-columns: minmax(557px, 653px) 1fr;
+    align-items: start;
     gap: 0px;
     margin-bottom: 50px;
   }
@@ -946,7 +919,6 @@
     min-height: 504px;
   }
   .bath-stoves__media img {
-    position: relative;
     left: 0;
     right: auto;
     bottom: -10px;
@@ -1019,7 +991,7 @@
   .bath-stoves__stats {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     align-items: stretch;
   }
   .bath-stoves__stat {
@@ -1107,22 +1079,22 @@
     transform: translateY(-50%);
   }
   .projects-section h2 {
-    margin: 0 0 20px 0;
+    margin: 58px 0 30px;
   }
   .projects-section__grid {
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
-    gap: 18px;
-    margin-bottom: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-bottom: 32px;
   }
   .projects-section__more {
     display: flex;
     justify-content: center;
   }
   .projects-section__more-btn {
-    min-width: 168px;
-    min-height: 42px;
-    padding: 12px 32px;
+    min-width: 241px;
+    min-height: 58px;
+    padding: 15px 36px;
     border-radius: 10px;
     border: 1px solid #7f7f7f;
     display: inline-flex;
@@ -1131,7 +1103,7 @@
     text-align: center;
     color: #5f646d;
     font-family: "PT Sans";
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 400;
     text-decoration: none;
     transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
@@ -1142,16 +1114,16 @@
   }
   .projects-section .project-card {
     min-width: 0;
-    margin-bottom: 2px;
+    margin-bottom: 8px;
   }
   .projects-section .project-card__slider {
     position: relative;
     width: 100%;
     min-width: 0;
-    height: 218px;
-    border-radius: 10px;
+    height: 367px;
+    border-radius: 12px;
     overflow: hidden;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
   }
   .projects-section .project-card__slider.swiper {
     width: 100%;
@@ -1179,11 +1151,8 @@
     -o-object-fit: cover;
        object-fit: cover;
   }
-  .project-card:nth-child(8), .project-card:nth-child(7) {
-    display: none;
-  }
   .project-card {
-    border-radius: 10px;
+    border-radius: 20px;
     border: 1px solid #e0e0e0;
     background: #fff;
     padding: 20px;
@@ -1196,9 +1165,9 @@
   .project-card__slider {
     position: relative;
     height: 300px;
-    border-radius: 10px;
+    border-radius: 12px;
     overflow: hidden;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
   }
   .project-card__slider .swiper-slide {
     height: 300px;
@@ -1211,16 +1180,12 @@
        object-fit: cover;
     border-radius: 10px;
   }
-  .project-card__nav svg {
-    width: 14px;
-    height: 14px;
-  }
   .project-card__nav {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 24px;
-    height: 24px;
+    width: 40px;
+    height: 40px;
     border: none;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.8);
@@ -1244,11 +1209,11 @@
     padding: 0;
   }
   .project-card h3 {
-    margin: 0 0 10px;
+    margin: 0 0 13px;
     color: #54595f;
     text-align: center;
     font-family: "PT Sans";
-    font-size: 13px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -1257,28 +1222,25 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 10px;
-  }
-  .project-card__date svg {
-    width: 18px;
-    height: 18px;
+    gap: 12px;
   }
   .project-card__date {
     display: flex;
     align-items: center;
-    gap: 7px;
+    gap: 10px;
     color: #54595f;
     font-family: "PT Sans";
-    font-size: 11px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     white-space: nowrap;
   }
   .project-card__btn {
-    height: 28px;
-    padding: 7px 16px;
-    border-radius: 5px;
+    min-width: 157px;
+    height: 42px;
+    padding: 10px 20px;
+    border-radius: 10px;
     background: #ffbc3b;
     display: inline-flex;
     align-items: center;
@@ -1287,7 +1249,7 @@
     color: #54595f;
     text-align: center;
     font-family: "PT Sans";
-    font-size: 11px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -1297,7 +1259,7 @@
     background: #fdca6c;
     transform: translateY(-1px);
   }
-  .no-mobile {
+  .no-desctop {
     display: none !important;
   }
-}/*# sourceMappingURL=tablet.css.map */
+}/*# sourceMappingURL=desktop.css.map */

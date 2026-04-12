@@ -1,5 +1,5 @@
-/* tablet */
-@media (min-width: 768px) and (max-width: 1439px) {
+/* desktop */
+@media (min-width: 1440px) {
     body {
         color: #54595f;
         font-family: "PT Sans", sans-serif;
@@ -10,7 +10,7 @@
     }
     .container {
         max-width: 1440px;
-        margin: 0px 15px;
+        margin: 0px auto;
     }
     h1 {
         color: #a9613d;
@@ -25,26 +25,27 @@
     h2 {
         color: #a9613d;
         font-family: "PT Sans";
-        font-size: 20px;
+        font-size: 40px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
 
         text-transform: uppercase;
-
-        text-align: center;
     }
     h3 {
         color: #54595f;
         font-family: "PT Sans";
-        font-size: 20px;
+        font-size: 24px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
     }
     header {
+        .logo-mob{
+            display: none;
+        }
         .burger {
-            margin-left: 12px;
+            display: none;
         }
         .main-menu {
             ul {
@@ -69,15 +70,13 @@
             margin: 23px 0px 0px 0px;
             border-top: 1px solid #b1b1b1;
             padding: 22px 0px;
-            display: none;
         }
         .search-call {
             display: flex;
             flex-direction: column;
-            gap: 0px;
+            gap: 9px;
 
             .search {
-                display: none;
                 position: relative;
                 width: 333px;
 
@@ -116,22 +115,22 @@
             .call-back {
                 cursor: pointer;
                 transition: 0.2s;
-                border-radius: 25px;
+                border-radius: 10px;
                 background: #ffbc3b;
                 display: flex;
-                width: 24px;
-                height: 24px;
-                //padding: 14px 10px 13px 10px;
+                width: 333px;
+                height: 50px;
+                padding: 14px 10px 13px 10px;
                 justify-content: center;
                 align-items: center;
-                gap: 0px;
+                gap: 6px;
                 color: #000;
-                font-size: 0;
+                font-size: 18px;
 
                 .icon {
-                    width: 11px;
-                    height: 11px;
-                    //background-color: #000;
+                    width: 19px;
+                    height: 19px;
+                    background-color: #000;
                     border-radius: 20px;
                     display: flex;
                     align-items: center;
@@ -144,21 +143,19 @@
             }
         }
         .messgrs {
-            margin-left: auto;
             display: flex;
             align-items: center;
-            gap: 8px;
+            gap: 15px;
             a {
                 display: flex;
                 align-items: center;
             }
-            svg,
             img {
-                max-width: 24px;
+                max-width: 56px;
             }
         }
         .phone {
-            display: none;
+            display: flex;
             flex-direction: column;
             a {
                 transition: 0.2s;
@@ -182,7 +179,6 @@
             line-height: normal;
         }
         .title {
-            display: none;
             color: #000;
             text-align: center;
             font-family: "PT Sans";
@@ -196,7 +192,6 @@
             }
         }
         .logo {
-            display: none;
             img {
                 height: 130px;
             }
@@ -205,19 +200,18 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            gap: 8px;
+            gap: 10px;
         }
-        padding: 10px 0px 23px 0px;
+        padding: 20px 0px 0px 0px;
     }
     footer {
         .menus {
             display: flex;
             flex-direction: column;
-            gap: 24px;
-            //margin-left: 20px;
+            gap: 17px;
+            margin-left: 20px;
             .site-map {
                 margin-top: auto;
-                margin-bottom: 4px;
                 color: #a9613d;
                 font-family: "PT Sans";
                 font-size: 14px;
@@ -246,13 +240,12 @@
                     font-weight: 400;
                     line-height: normal;
                     transition: 0.2s;
-                    text-wrap: nowrap;
                     &:hover {
                         color: #a9613d;
                     }
                 }
                 display: flex;
-                gap: 20px;
+                gap: 50px;
             }
             h2 {
                 color: #a9613d;
@@ -264,11 +257,11 @@
             }
         }
         .contacts {
-            // margin-top: 42px;
-            // margin-left: 20px;
+            margin-top: 42px;
+            margin-left: 20px;
             display: flex;
             flex-direction: column;
-            gap: 18px;
+            gap: 16px;
             .icon {
                 width: 20px;
                 height: 20px;
@@ -297,15 +290,12 @@
                     display: flex;
                     align-items: center;
                 }
-                svg,
                 img {
-                    max-width: 27px;
-                    max-height: 27px;
+                    max-width: 42px;
                 }
             }
         }
         .infos {
-            max-width: 200px;
             display: flex;
             flex-direction: column;
             gap: 14px;
@@ -315,19 +305,19 @@
                 gap: 20px;
                 color: #a9613d;
                 font-family: "PT Sans";
-                font-size: 12px;
+                font-size: 14px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
                 img {
-                    max-width: 65px;
+                    max-width: 115px;
                 }
             }
             .politic {
                 margin-top: 5px;
                 color: #a9613d;
                 font-family: "PT Sans";
-                font-size: 12px;
+                font-size: 14px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
@@ -336,12 +326,12 @@
                 }
             }
             .adress {
-                font-size: 11px;
+                font-size: 14px;
             }
             h2 {
                 color: #54595f;
                 font-family: "PT Sans";
-                font-size: 14px;
+                font-size: 18px;
                 font-style: normal;
                 font-weight: 700;
                 line-height: normal;
@@ -349,7 +339,7 @@
         }
         .logo {
             img {
-                max-width: 103px;
+                max-width: 203px;
             }
         }
         .wrapper {
@@ -357,17 +347,17 @@
             justify-content: space-between;
             gap: 10px;
             border-top: 1px solid #b1b1b1;
-            padding: 20px 0px 20px 0px;
-            margin: 65px 0px 0px 0px;
+            padding: 40px 10px 40px 0px;
+            margin: 90px 0px 0px 0px;
         }
     }
     .section-divider {
         display: flex;
         align-items: center;
-        gap: 16px;
+        gap: 24px;
         width: 100%;
         //margin-bottom: 30px;
-        margin: 50px 0px 20px 0px;
+        margin: 90px 0px 30px 0px;
 
         .line {
             flex: 1;
@@ -377,8 +367,8 @@
 
         &__icon {
             flex-shrink: 0;
-            width: 28px;
-            height: 38px;
+            width: 48px;
+            height: 64px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -396,7 +386,7 @@
 
         .heroSwiper {
             width: 100%;
-            height: calc(100vh - 89px);
+            height: calc(100vh - 252px);
             //height: 840px;
             position: relative;
             overflow: hidden;
@@ -410,7 +400,7 @@
             position: relative;
             display: flex;
             align-items: center;
-            padding: 15px;
+            padding: 80px;
             height: 100%;
             background-size: cover;
             background-position: center;
@@ -440,29 +430,20 @@
                 li {
                     display: flex;
                     align-items: center;
-                    gap: 8px;
-                    width: fit-content;
-                    font-size: 14px;
-                    img {
-                        width: 16px;
-                        height: 16px;
-                    }
-                    br {
-                        display: none;
-                    }
+                    gap: 15px;
+                    width: 253px;
                 }
                 display: flex;
-                flex-direction: column;
-                //flex-wrap: wrap;
-                //justify-content: space-between;
+                flex-wrap: wrap;
+                justify-content: space-between;
                 max-width: 540px;
-                gap: 14px;
+                gap: 25px;
             }
-            min-height: 250px;
+            min-height: 356px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            gap: 11px;
+            gap: 34px;
             position: relative;
             z-index: 2;
             width: 100%;
@@ -486,13 +467,12 @@
         .slide-content h2 {
             color: #fff;
             font-family: "PT Sans";
-            font-size: 24px;
+            font-size: 52px;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
             text-transform: uppercase;
             max-width: 630px;
-            text-align: left;
             //margin-bottom: 162px;
         }
 
@@ -506,17 +486,17 @@
         }
 
         .slide-btn {
-            margin-top: 14px;
+            margin-top: 16px;
             border-radius: 10px;
             background: #ffbc3b;
             display: inline-flex;
-            padding: 12px 32px 13px 31px;
+            padding: 18px 47px 19px 48px;
             justify-content: center;
             align-items: center;
             color: #000;
             text-align: center;
             font-family: "PT Sans";
-            font-size: 13px;
+            font-size: 18px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -547,12 +527,11 @@
         }
         .swiper-button-next:after,
         .swiper-button-prev:after {
-            //font-size: 28px;
-            font-size: 0;
+            font-size: 28px;
         }
     }
     .about-us {
-        //padding: 60px 0 0px;
+       // padding: 60px 0 0px;
 
         h2 {
             margin: 0 0 30px;
@@ -560,18 +539,17 @@
 
         .wrapper {
             display: flex;
-            flex-direction: column;
             justify-content: space-between;
             align-items: flex-start;
-            gap: 30px;
+            gap: 0px;
         }
 
         &__info {
             width: 100%;
-            //max-width: 588px;
+            max-width: 588px;
             display: flex;
             flex-direction: column;
-            gap: 30px;
+            gap: 27px;
         }
 
         &__item {
@@ -604,15 +582,13 @@
             h3 {
                 margin: 0;
             }
+
             p {
-                br {
-                    display: none;
-                }
                 margin: 0;
-                //max-width: 430px;
+                max-width: 430px;
 
                 font-family: "PT Sans";
-                font-size: 13px;
+                font-size: 16px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
@@ -629,7 +605,7 @@
 
         &__media {
             width: 100%;
-            //max-width: 852px;
+            max-width: 852px;
         }
 
         &__video {
@@ -696,9 +672,9 @@
             background: #ececec;
             display: flex;
             align-items: center;
-            gap: 20px;
+            gap: 30px;
 
-            padding: 30px 25px 29px 20px;
+            padding: 18px 35px 17px 35px;
             text-align: left;
             cursor: pointer;
             transition: 0.3s;
@@ -710,8 +686,8 @@
 
         &__icon {
             flex-shrink: 0;
-            width: 24px;
-            height: 24px;
+            width: 40px;
+            height: 40px;
             border-radius: 50%;
             background: #fff;
             display: flex;
@@ -719,8 +695,6 @@
             justify-content: center;
 
             svg {
-                width: 14px;
-                height: 14px;
                 transition: transform 0.3s ease;
             }
         }
@@ -735,7 +709,7 @@
         &__title {
             color: #54595f;
             font-family: "PT Sans";
-            font-size: 16px;
+            font-size: 24px;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
@@ -751,13 +725,13 @@
         }
 
         &__content {
-            padding: 20px;
+            padding: 25px 35px 25px 105px;
 
             p {
-                margin: 0 0 14px;
+                margin: 0 0 22px;
                 color: #54595f;
                 font-family: "PT Sans";
-                font-size: 13px;
+                font-size: 16px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
@@ -770,21 +744,16 @@
     }
     .catalog-section {
         &__head {
-            margin-bottom: 33px;
+            margin-bottom: 30px;
 
             h2 {
-                margin: 0 0 20px;
+                margin: 0 0 10px;
             }
 
             p {
-                color: #54595f;
-                text-align: center;
-                font-family: "PT Sans";
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: normal;
-                text-transform: uppercase;
+                margin: 0;
+
+                font-size: 32px;
             }
         }
 
@@ -797,7 +766,7 @@
             border-radius: 20px;
             border: 1px solid #e0e0e0;
             background: #fff;
-            padding: 13px 0px 20px;
+            padding: 13px 0px 39px;
             text-decoration: none;
             transition:
                 transform 0.25s ease,
@@ -811,16 +780,16 @@
             }
 
             &__image {
-                height: 280px;
+                height: 360px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-bottom: 20px;
+                margin-bottom: 17px;
 
                 img {
-                    //width: 100%;
+                    max-width: 100%;
                     max-height: 100%;
-                    object-fit: cover;
+                    object-fit: contain;
                     display: block;
                     border-radius: 20px;
                 }
@@ -830,7 +799,7 @@
                 color: #54595f;
                 text-align: center;
                 font-family: "PT Sans";
-                font-size: 16px;
+                font-size: 24px;
                 font-style: normal;
                 font-weight: 700;
                 line-height: normal;
@@ -839,12 +808,9 @@
     }
     .branded-stoves {
         &__wrapper {
-            // display: grid;
-            // grid-template-columns: minmax(840px, 540px) 1fr;
-            // align-items: start;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            display: grid;
+            grid-template-columns: minmax(840px, 540px) 1fr;
+            align-items: start;
             gap: 0px;
         }
 
@@ -853,22 +819,17 @@
         }
 
         h2 {
-            margin: 0 0 20px;
-            position: relative;
+            margin: 0 0 8px;
         }
 
         &__subtitle {
-            position: relative;
-
             margin-bottom: 30px;
             color: #54595f;
-            text-align: center;
             font-family: "PT Sans";
-            font-size: 16px;
+            font-size: 32px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
-            text-transform: uppercase;
         }
 
         &__list {
@@ -1057,10 +1018,8 @@
     }
     .bath-stoves {
         &__wrapper {
-            // grid-template-columns: minmax(557px, 653px) 1fr;
-            // align-items: start;
-            display: flex;
-            flex-direction: column-reverse;
+            grid-template-columns: minmax(557px, 653px) 1fr;
+            align-items: start;
             gap: 0px;
             margin-bottom: 50px;
         }
@@ -1085,7 +1044,6 @@
             min-height: 504px;
 
             img {
-                position: relative;
                 left: 0;
                 right: auto;
                 bottom: -10px;
@@ -1170,8 +1128,7 @@
         &__stats {
             width: 100%;
             display: grid;
-            //grid-template-columns: repeat(6, 1fr);
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(6, 1fr);
             align-items: stretch;
         }
 
@@ -1280,15 +1237,14 @@
     }
     .projects-section {
         h2 {
-            margin: 0 0 20px 0;
-            //text-align: center;
+            margin: 58px 0 30px;
         }
 
         &__grid {
             display: grid;
-            grid-template-columns: repeat(3, 2fr);
-            gap: 18px;
-            margin-bottom: 30px;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px;
+            margin-bottom: 32px;
         }
 
         &__more {
@@ -1297,9 +1253,9 @@
         }
 
         &__more-btn {
-            min-width: 168px;
-            min-height: 42px;
-            padding: 12px 32px;
+            min-width: 241px;
+            min-height: 58px;
+            padding: 15px 36px;
             border-radius: 10px;
             border: 1px solid #7f7f7f;
             display: inline-flex;
@@ -1308,7 +1264,7 @@
             text-align: center;
             color: #5f646d;
             font-family: "PT Sans";
-            font-size: 13px;
+            font-size: 18px;
             font-weight: 400;
             text-decoration: none;
             transition:
@@ -1326,17 +1282,17 @@
     .projects-section {
         .project-card {
             min-width: 0;
-            margin-bottom: 2px;
+            margin-bottom: 8px;
         }
 
         .project-card__slider {
             position: relative;
             width: 100%;
             min-width: 0;
-            height: 218px;
-            border-radius: 10px;
+            height: 367px;
+            border-radius: 12px;
             overflow: hidden;
-            margin-bottom: 10px;
+            margin-bottom: 16px;
         }
 
         .project-card__slider.swiper {
@@ -1371,11 +1327,7 @@
     }
 
     .project-card {
-        &:nth-child(8),
-        &:nth-child(7) {
-            display: none;
-        }
-        border-radius: 10px;
+        border-radius: 20px;
         border: 1px solid #e0e0e0;
         background: #fff;
         padding: 20px;
@@ -1391,9 +1343,9 @@
         &__slider {
             position: relative;
             height: 300px;
-            border-radius: 10px;
+            border-radius: 12px;
             overflow: hidden;
-            margin-bottom: 10px;
+            margin-bottom: 16px;
 
             .swiper-slide {
                 height: 300px;
@@ -1409,15 +1361,11 @@
         }
 
         &__nav {
-            svg {
-                width: 14px;
-                height: 14px;
-            }
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
-            width: 24px;
-            height: 24px;
+            width: 40px;
+            height: 40px;
             border: none;
             border-radius: 50%;
             background: rgba(255, 255, 255, 0.8);
@@ -1446,11 +1394,11 @@
         }
 
         h3 {
-            margin: 0 0 10px;
+            margin: 0 0 13px;
             color: #54595f;
             text-align: center;
             font-family: "PT Sans";
-            font-size: 13px;
+            font-size: 20px;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
@@ -1460,20 +1408,16 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            gap: 10px;
+            gap: 12px;
         }
 
         &__date {
-            svg {
-                width: 18px;
-                height: 18px;
-            }
             display: flex;
             align-items: center;
-            gap: 7px;
+            gap: 10px;
             color: #54595f;
             font-family: "PT Sans";
-            font-size: 11px;
+            font-size: 15px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -1481,10 +1425,10 @@
         }
 
         &__btn {
-            //min-width: 157px;
-            height: 28px;
-            padding: 7px 16px;
-            border-radius: 5px;
+            min-width: 157px;
+            height: 42px;
+            padding: 10px 20px;
+            border-radius: 10px;
             background: #ffbc3b;
             display: inline-flex;
             align-items: center;
@@ -1493,7 +1437,7 @@
             color: #54595f;
             text-align: center;
             font-family: "PT Sans";
-            font-size: 11px;
+            font-size: 16px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -1507,7 +1451,7 @@
             }
         }
     }
-    .no-mobile {
+    .no-desctop{
         display: none !important;
     }
 }
