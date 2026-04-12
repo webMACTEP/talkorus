@@ -1032,8 +1032,8 @@
         }
 
         &--1 {
-            top: 40px;
-            left: 310px;
+            top: 0px;
+            left: -20px;
 
             .hotspot__tooltip {
                 top: 70px;
@@ -1043,8 +1043,8 @@
         }
 
         &--2 {
-            top: 215px;
-            right: 110px;
+            top: 265px;
+            right: 48px;
 
             .hotspot__tooltip {
                 left: auto;
@@ -1053,8 +1053,8 @@
         }
 
         &--3 {
-            top: 345px;
-            left: 220px;
+            top: 165px;
+            left: 90px;
 
             .hotspot__tooltip {
                 top: 70px;
@@ -1103,7 +1103,7 @@
 
         &__content {
             min-width: 100%;
-            padding-top: 0;
+            padding-top: 50px;
         }
 
         &__lead {
@@ -1152,8 +1152,8 @@
         &__bottom {
             display: flex;
             flex-direction: column;
-            align-items: center;
-            gap: 38px;
+            align-items: flex-start;
+            gap: 20px;
         }
 
         &__stats {
@@ -1167,8 +1167,12 @@
         &__stat {
             position: relative;
             min-height: 110px;
-            padding: 0 20px 30px 66px;
+            padding: 0 20px 20px 48px;
             border-right: 1px solid #d1d1d1;
+            &:nth-child(4n),
+            &:first-child {
+                padding: 0 20px 20px 0px;
+            }
 
             &:nth-child(3n) {
                 border-right: 0;
@@ -1211,7 +1215,7 @@
 
         &__stat-text {
             color: #000;
-            font: 400 16px/1 "PT Sans";
+            font: 400 13px/1 "PT Sans";
         }
 
         &__btn {
@@ -1221,7 +1225,7 @@
         &__hotspot {
             &--1 {
                 top: 60px;
-                left: 60px;
+                left: -216px;
 
                 .hotspot__tooltip {
                     top: 0;
@@ -1232,7 +1236,7 @@
 
             &--2 {
                 top: 90px;
-                left: 485px;
+                left: 162px;
 
                 .hotspot__tooltip {
                     top: 60px;
@@ -1244,7 +1248,7 @@
 
             &--3 {
                 top: 307px;
-                left: 143px;
+                left: -121px;
 
                 .hotspot__tooltip {
                     top: auto;
@@ -1257,7 +1261,7 @@
 
             &--4 {
                 top: 311px;
-                left: 427px;
+                left: 157px;
 
                 .hotspot__tooltip {
                     top: 56px;

@@ -901,8 +901,8 @@
     pointer-events: auto;
   }
   .hotspot--1 {
-    top: 40px;
-    left: 310px;
+    top: 0px;
+    left: -20px;
   }
   .hotspot--1 .hotspot__tooltip {
     top: 70px;
@@ -910,16 +910,16 @@
     right: 20px;
   }
   .hotspot--2 {
-    top: 215px;
-    right: 110px;
+    top: 265px;
+    right: 48px;
   }
   .hotspot--2 .hotspot__tooltip {
     left: auto;
     right: 20px;
   }
   .hotspot--3 {
-    top: 345px;
-    left: 220px;
+    top: 165px;
+    left: 90px;
   }
   .hotspot--3 .hotspot__tooltip {
     top: 70px;
@@ -957,7 +957,7 @@
   }
   .bath-stoves__content {
     min-width: 100%;
-    padding-top: 0;
+    padding-top: 50px;
   }
   .bath-stoves__lead {
     margin-bottom: 20px;
@@ -995,8 +995,8 @@
   .bath-stoves__bottom {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 38px;
+    align-items: flex-start;
+    gap: 20px;
   }
   .bath-stoves__stats {
     display: grid;
@@ -1008,8 +1008,11 @@
   .bath-stoves__stat {
     position: relative;
     min-height: 110px;
-    padding: 0 20px 30px 66px;
+    padding: 0 20px 20px 48px;
     border-right: 1px solid #d1d1d1;
+  }
+  .bath-stoves__stat:nth-child(4n), .bath-stoves__stat:first-child {
+    padding: 0 20px 20px 0px;
   }
   .bath-stoves__stat:nth-child(3n) {
     border-right: 0;
@@ -1046,14 +1049,14 @@
   }
   .bath-stoves__stat-text {
     color: #000;
-    font: 400 16px/1 "PT Sans";
+    font: 400 13px/1 "PT Sans";
   }
   .bath-stoves__btn {
     min-width: 240px;
   }
   .bath-stoves__hotspot--1 {
     top: 60px;
-    left: 60px;
+    left: -216px;
   }
   .bath-stoves__hotspot--1 .hotspot__tooltip {
     top: 0;
@@ -1062,7 +1065,7 @@
   }
   .bath-stoves__hotspot--2 {
     top: 90px;
-    left: 485px;
+    left: 162px;
   }
   .bath-stoves__hotspot--2 .hotspot__tooltip {
     top: 60px;
@@ -1072,7 +1075,7 @@
   }
   .bath-stoves__hotspot--3 {
     top: 307px;
-    left: 143px;
+    left: -121px;
   }
   .bath-stoves__hotspot--3 .hotspot__tooltip {
     top: auto;
@@ -1083,7 +1086,7 @@
   }
   .bath-stoves__hotspot--4 {
     top: 311px;
-    left: 427px;
+    left: 157px;
   }
   .bath-stoves__hotspot--4 .hotspot__tooltip {
     top: 56px;
