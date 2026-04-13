@@ -355,7 +355,7 @@
   }
   footer .menus nav {
     display: flex;
-    gap: 20px;
+    gap: 50px;
   }
   footer .menus h2 {
     color: #a9613d;
@@ -406,30 +406,29 @@
     max-height: 27px;
   }
   footer .infos {
-    max-width: 200px;
     display: flex;
     flex-direction: column;
-    gap: 11px;
+    gap: 14px;
   }
   footer .infos .karelia {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 20px;
     color: #a9613d;
     font-family: "PT Sans";
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
   }
   footer .infos .karelia img {
-    max-width: 65px;
+    max-width: 117px;
   }
   footer .infos .politic {
     margin-top: 5px;
     color: #a9613d;
     font-family: "PT Sans";
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -438,25 +437,36 @@
     text-decoration: underline;
   }
   footer .infos .adress {
-    font-size: 11px;
+    font-size: 14px;
+  }
+  footer .infos h2 {
+    margin-top: 6px;
+  }
+  footer .infos h2 br {
+    display: none;
   }
   footer .infos h2 {
     color: #54595f;
     font-family: "PT Sans";
-    font-size: 14px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-align: left;
   }
+  footer .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   footer .logo img {
-    max-width: 103px;
+    max-width: 203px;
   }
   footer .wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 10px;
+    gap: 21px;
     border-top: 1px solid #b1b1b1;
     padding: 20px 0px 20px 0px;
     margin: 65px 0px 0px 0px;
@@ -747,6 +757,7 @@
   }
   .about-info__head {
     width: 100%;
+    min-height: 82px;
     background: #ececec;
     display: flex;
     align-items: center;
@@ -878,7 +889,7 @@
   }
   .branded-stoves__content {
     max-width: 100%;
-    margin: 73px 0px 0px 0px;
+    margin: 22px 0px 0px 0px;
   }
   .branded-stoves h2 {
     margin: 0 0 9px;
@@ -932,7 +943,7 @@
     margin-bottom: 20px;
   }
   .branded-stoves__text p {
-    margin: 0 0 19px;
+    margin: 0 0 21px;
     color: #54595f;
     font-family: "PT Sans";
     font-size: 13px;
@@ -984,8 +995,8 @@
   }
   .hotspot__dot {
     position: relative;
-    width: 44px;
-    height: 44px;
+    width: 30px;
+    height: 30px;
     border: none;
     border-radius: 50%;
     background: #ffbc3b;
@@ -996,7 +1007,7 @@
   .hotspot__dot::before {
     content: "";
     position: absolute;
-    inset: -20px;
+    inset: -13px;
     border-radius: 50%;
     background: rgba(255, 188, 59, 0.28);
     z-index: -1;
@@ -1005,8 +1016,7 @@
     z-index: 99;
     position: absolute;
     top: 120%;
-    transform: translateY(-50%);
-    min-width: 244px;
+    min-width: 290px;
     padding: 13px 25px 12px 25px;
     border-radius: 20px 5px;
     border: 2px solid #ffbc3b;
@@ -1029,27 +1039,28 @@
   }
   .hotspot--1 {
     top: 30px;
-    left: -20px;
+    left: -10px;
   }
   .hotspot--1 .hotspot__tooltip {
-    top: 70px;
+    top: 15px;
     left: 50%;
     transform: translateX(-50%);
   }
   .hotspot--2 {
-    top: 265px;
-    right: 48px;
+    top: 234px;
+    right: 43px;
   }
   .hotspot--2 .hotspot__tooltip {
-    left: 50%;
+    top: 15px;
+    left: 63px;
     transform: translateX(-50%);
   }
   .hotspot--3 {
-    top: 165px;
-    left: 90px;
+    top: 148px;
+    left: 84px;
   }
   .hotspot--3 .hotspot__tooltip {
-    top: 70px;
+    top: 15px;
     right: 0;
   }
   .bath-stoves__wrapper {
@@ -1058,7 +1069,7 @@
     margin-bottom: 28px;
   }
   .bath-stoves .branded-stoves__subtitle {
-    margin-bottom: 19px;
+    margin-bottom: 32px;
   }
   .bath-stoves .branded-stoves__list li {
     margin-bottom: 18px;
@@ -1084,12 +1095,12 @@
   .bath-stoves__content {
     min-width: 100%;
     padding-top: 0px;
-    margin: 14px 0px 0px 0px;
+    margin: 17px 0px 0px 0px;
   }
   .bath-stoves__lead {
-    margin-bottom: 14px;
+    margin-bottom: 18px;
     color: #54595f;
-    font: 700 15px/1 "PT Sans";
+    font: 700 15px/1.4 "PT Sans";
   }
   .bath-stoves__list {
     margin-bottom: 20px;
@@ -1110,7 +1121,7 @@
   .bath-stoves__features-list, .bath-stoves__features-col {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 21px;
   }
   .bath-stoves__feature-row {
     display: flex;
@@ -1129,25 +1140,25 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 20px;
+    gap: 0px;
   }
   .bath-stoves__stats {
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: stretch;
     gap: 30px 0;
   }
   .bath-stoves__stat {
     position: relative;
     min-height: 110px;
-    padding: 0 20px 20px 8px;
+    padding: 0 20px 20px 40px;
     border-right: 1px solid #d1d1d1;
   }
-  .bath-stoves__stat:nth-child(4n), .bath-stoves__stat:first-child {
-    padding: 0 20px 20px 0px;
+  .bath-stoves__stat:nth-child(odd) {
+    padding-left: 0;
   }
-  .bath-stoves__stat:nth-child(3n) {
+  .bath-stoves__stat:nth-child(even) {
     border-right: 0;
   }
   .bath-stoves__stat::after {
@@ -1159,7 +1170,7 @@
     height: 1px;
     background: #d1d1d1;
   }
-  .bath-stoves__stat:nth-last-child(-n+3)::after {
+  .bath-stoves__stat:nth-last-child(-n+2)::after {
     display: none;
   }
   .bath-stoves__stat-value {
@@ -1188,37 +1199,36 @@
     min-width: 168px;
   }
   .bath-stoves__hotspot--1 {
-    top: 60px;
-    left: 16px;
+    top: 48px;
+    left: -143px;
   }
   .bath-stoves__hotspot--1 .hotspot__tooltip {
-    top: 0;
-    right: 0;
+    top: 15px;
+    left: -45px;
   }
   .bath-stoves__hotspot--2 {
-    top: 90px;
-    left: 62px;
+    top: 52px;
+    left: 106px;
   }
   .bath-stoves__hotspot--2 .hotspot__tooltip {
-    top: 60px;
-    right: 0;
+    top: 15px;
+    right: -50px;
   }
   .bath-stoves__hotspot--3 {
-    top: 307px;
-    left: -21px;
+    top: 232px;
+    left: -72px;
   }
   .bath-stoves__hotspot--3 .hotspot__tooltip {
-    top: auto;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 15px;
+    left: -120px;
   }
   .bath-stoves__hotspot--4 {
-    top: 311px;
-    left: 57px;
+    top: 245px;
+    left: 105px;
   }
   .bath-stoves__hotspot--4 .hotspot__tooltip {
-    top: 56px;
-    right: 0;
+    top: 15px;
+    right: -50px;
   }
   .projects-section h2 {
     margin: 0 0 20px 0;
@@ -1227,7 +1237,7 @@
     display: flex;
     flex-direction: column;
     gap: 18px;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
   }
   .projects-section__more {
     display: flex;
@@ -1262,10 +1272,10 @@
     position: relative;
     width: 100%;
     min-width: 0;
-    height: 218px;
+    height: 364px;
     border-radius: 10px;
     overflow: hidden;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .projects-section .project-card__slider.swiper {
     width: 100%;
@@ -1293,11 +1303,11 @@
     -o-object-fit: cover;
        object-fit: cover;
   }
-  .project-card:nth-child(8), .project-card:nth-child(7) {
+  .project-card:nth-child(5), .project-card:nth-child(6), .project-card:nth-child(7), .project-card:nth-child(8) {
     display: none;
   }
   .project-card {
-    border-radius: 10px;
+    border-radius: 20px;
     border: 1px solid #e0e0e0;
     background: #fff;
     padding: 20px;
@@ -1326,15 +1336,15 @@
     border-radius: 10px;
   }
   .project-card__nav svg {
-    width: 14px;
-    height: 14px;
+    width: 24px;
+    height: 24px;
   }
   .project-card__nav {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 24px;
-    height: 24px;
+    width: 40px;
+    height: 40px;
     border: none;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.8);
@@ -1358,11 +1368,11 @@
     padding: 0;
   }
   .project-card h3 {
-    margin: 0 0 10px;
+    margin: 0 0 13px;
     color: #54595f;
     text-align: center;
     font-family: "PT Sans";
-    font-size: 13px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -1374,8 +1384,8 @@
     gap: 10px;
   }
   .project-card__date svg {
-    width: 18px;
-    height: 18px;
+    width: 25px;
+    height: 25px;
   }
   .project-card__date {
     display: flex;
@@ -1383,16 +1393,16 @@
     gap: 7px;
     color: #54595f;
     font-family: "PT Sans";
-    font-size: 11px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     white-space: nowrap;
   }
   .project-card__btn {
-    height: 28px;
-    padding: 7px 16px;
-    border-radius: 5px;
+    height: 42px;
+    padding: 10px 40px;
+    border-radius: 10px;
     background: #ffbc3b;
     display: inline-flex;
     align-items: center;
@@ -1401,7 +1411,7 @@
     color: #54595f;
     text-align: center;
     font-family: "PT Sans";
-    font-size: 11px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

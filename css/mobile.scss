@@ -372,7 +372,7 @@
                     }
                 }
                 display: flex;
-                gap: 20px;
+                gap: 50px;
             }
             h2 {
                 color: #a9613d;
@@ -426,29 +426,29 @@
             }
         }
         .infos {
-            max-width: 200px;
+            //max-width: 200px;
             display: flex;
             flex-direction: column;
-            gap: 11px;
+            gap: 14px;
             .karelia {
                 display: flex;
-                align-items: flex-start;
+                align-items: center;
                 gap: 20px;
                 color: #a9613d;
                 font-family: "PT Sans";
-                font-size: 12px;
+                font-size: 14px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
                 img {
-                    max-width: 65px;
+                    max-width: 117px;
                 }
             }
             .politic {
                 margin-top: 5px;
                 color: #a9613d;
                 font-family: "PT Sans";
-                font-size: 12px;
+                font-size: 14px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
@@ -457,12 +457,14 @@
                 }
             }
             .adress {
-                font-size: 11px;
+                font-size: 14px;
             }
             h2 {
+                margin-top: 6px;
+                br{display: none;}
                 color: #54595f;
                 font-family: "PT Sans";
-                font-size: 14px;
+                font-size: 18px;
                 font-style: normal;
                 font-weight: 700;
                 line-height: normal;
@@ -470,15 +472,18 @@
             }
         }
         .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             img {
-                max-width: 103px;
+                max-width: 203px;
             }
         }
         .wrapper {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            gap: 10px;
+            gap: 21px;
             border-top: 1px solid #b1b1b1;
             padding: 20px 0px 20px 0px;
             margin: 65px 0px 0px 0px;
@@ -824,6 +829,7 @@
 
         &__head {
             width: 100%;
+            min-height: 82px;
             //border: none;
             background: #ececec;
             display: flex;
@@ -996,7 +1002,7 @@
 
         &__content {
             max-width: 100%;
-            margin: 73px 0px 0px 0px;
+            margin: 22px 0px 0px 0px;
         }
 
         h2 {
@@ -1059,7 +1065,7 @@
             margin-bottom: 20px;
 
             p {
-                margin: 0 0 19px;
+                margin: 0 0 21px;
 
                 color: #54595f;
                 font-family: "PT Sans";
@@ -1122,8 +1128,8 @@
 
         &__dot {
             position: relative;
-            width: 44px;
-            height: 44px;
+            width: 30px;
+            height: 30px;
             border: none;
             border-radius: 50%;
             background: #ffbc3b;
@@ -1134,7 +1140,7 @@
             &::before {
                 content: "";
                 position: absolute;
-                inset: -20px;
+                inset: -13px;
                 border-radius: 50%;
                 background: rgba(255, 188, 59, 0.28);
                 z-index: -1;
@@ -1147,8 +1153,8 @@
             top: 120%;
             //left: -290px;
             //right: 0;
-            transform: translateY(-50%);
-            min-width: 244px;
+            //transform: translateY(-50%);
+            min-width: 290px;
             //padding: 18px 26px;
             padding: 13px 25px 12px 25px;
             border-radius: 20px 5px;
@@ -1180,33 +1186,35 @@
 
         &--1 {
             top: 30px;
-            left: -20px;
+            left: -10px;
 
             .hotspot__tooltip {
-                top: 70px;
+                top: 15px;
                 left: 50%;
                 transform: translateX(-50%);
             }
         }
 
         &--2 {
-            top: 265px;
-            right: 48px;
+            top: 234px;
+            right: 43px;
 
             .hotspot__tooltip {
-                left: 50%;
+                top: 15px;
+                //left: 50%;
+                left: 63px;
                 transform: translateX(-50%);
             }
         }
 
         &--3 {
-            top: 165px;
-            left: 90px;
+            top: 148px;
+            left: 84px;
 
             .hotspot__tooltip {
-                top: 70px;
-                // left: 50%;
-                // transform: translateX(-50%);
+                top: 15px;
+                //left: 50%;
+                //transform: translateX(-50%);
                 right: 0;
             }
         }
@@ -1219,7 +1227,7 @@
         }
 
         .branded-stoves__subtitle {
-            margin-bottom: 19px;
+            margin-bottom: 32px;
         }
 
         .branded-stoves__list {
@@ -1252,13 +1260,13 @@
         &__content {
             min-width: 100%;
             padding-top: 0px;
-            margin: 14px 0px 0px 0px;
+            margin: 17px 0px 0px 0px;
         }
 
         &__lead {
-            margin-bottom: 14px;
+            margin-bottom: 18px;
             color: #54595f;
-            font: 700 15px/1 "PT Sans";
+            font: 700 15px/1.4 "PT Sans";
         }
 
         &__list {
@@ -1285,7 +1293,7 @@
         &__features-col {
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            gap: 21px;
         }
 
         &__feature-row {
@@ -1308,13 +1316,13 @@
             display: flex;
             flex-direction: column;
             align-items: flex-start;
-            gap: 20px;
+            gap: 0px;
         }
 
         &__stats {
             display: grid;
             width: 100%;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(2, 1fr);
             align-items: stretch;
             gap: 30px 0;
         }
@@ -1322,14 +1330,14 @@
         &__stat {
             position: relative;
             min-height: 110px;
-            padding: 0 20px 20px 8px;
+            padding: 0 20px 20px 40px;
             border-right: 1px solid #d1d1d1;
-            &:nth-child(4n),
-            &:first-child {
-                padding: 0 20px 20px 0px;
+
+            &:nth-child(odd) {
+                padding-left: 0;
             }
 
-            &:nth-child(3n) {
+            &:nth-child(even) {
                 border-right: 0;
             }
 
@@ -1343,7 +1351,7 @@
                 background: #d1d1d1;
             }
 
-            &:nth-last-child(-n + 3)::after {
+            &:nth-last-child(-n + 2)::after {
                 display: none;
             }
         }
@@ -1379,50 +1387,51 @@
 
         &__hotspot {
             &--1 {
-                top: 60px;
-                left: 16px;
+                top: 48px;
+                left: -143px;
 
                 .hotspot__tooltip {
-                    top: 0;
+                    top: 15px;
                     //left: 50%;
                     //transform: translateX(-50%);
-                    right: 0;
+                    //right: 0;
+                    left: -45px;
                 }
             }
 
             &--2 {
-                top: 90px;
-                left: 62px;
+                top: 52px;
+                left: 106px;
 
                 .hotspot__tooltip {
-                    top: 60px;
+                    top: 15px;
                     //left: 50%;
-                    right: 0;
+                    right: -50px;
                     //transform: translateX(-50%);
                 }
             }
 
             &--3 {
-                top: 307px;
-                left: -21px;
+                top: 232px;
+                left: -72px;
 
                 .hotspot__tooltip {
-                    top: auto;
-                    left: 50%;
-                    transform: translateX(-50%);
+                    top: 15px;
+                    left: -120px;
+                    //transform: translateX(-50%);
                     //left: 0;
                 }
             }
 
             &--4 {
-                top: 311px;
-                left: 57px;
+                top: 245px;
+                left: 105px;
 
                 .hotspot__tooltip {
-                    top: 56px;
+                    top: 15px;
                     // left: 50%;
                     // transform: translateX(-50%);
-                    right: 0;
+                    right: -50px;
                 }
             }
         }
@@ -1439,7 +1448,7 @@
             display: flex;
             flex-direction: column;
             gap: 18px;
-            margin-bottom: 30px;
+            margin-bottom: 16px;
         }
 
         &__more {
@@ -1484,10 +1493,10 @@
             position: relative;
             width: 100%;
             min-width: 0;
-            height: 218px;
+            height: 364px;
             border-radius: 10px;
             overflow: hidden;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
 
         .project-card__slider.swiper {
@@ -1522,11 +1531,13 @@
     }
 
     .project-card {
-        &:nth-child(8),
-        &:nth-child(7) {
+        &:nth-child(5),
+        &:nth-child(6),
+        &:nth-child(7),
+        &:nth-child(8) {
             display: none;
         }
-        border-radius: 10px;
+        border-radius: 20px;
         border: 1px solid #e0e0e0;
         background: #fff;
         padding: 20px;
@@ -1561,14 +1572,14 @@
 
         &__nav {
             svg {
-                width: 14px;
-                height: 14px;
+                width: 24px;
+                height: 24px;
             }
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
-            width: 24px;
-            height: 24px;
+            width: 40px;
+            height: 40px;
             border: none;
             border-radius: 50%;
             background: rgba(255, 255, 255, 0.8);
@@ -1597,11 +1608,11 @@
         }
 
         h3 {
-            margin: 0 0 10px;
+            margin: 0 0 13px;
             color: #54595f;
             text-align: center;
             font-family: "PT Sans";
-            font-size: 13px;
+            font-size: 20px;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
@@ -1616,15 +1627,15 @@
 
         &__date {
             svg {
-                width: 18px;
-                height: 18px;
+                width: 25px;
+                height: 25px;
             }
             display: flex;
             align-items: center;
             gap: 7px;
             color: #54595f;
             font-family: "PT Sans";
-            font-size: 11px;
+            font-size: 15px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -1633,9 +1644,9 @@
 
         &__btn {
             //min-width: 157px;
-            height: 28px;
-            padding: 7px 16px;
-            border-radius: 5px;
+            height: 42px;
+            padding: 10px 40px;
+            border-radius: 10px;
             background: #ffbc3b;
             display: inline-flex;
             align-items: center;
@@ -1644,7 +1655,7 @@
             color: #54595f;
             text-align: center;
             font-family: "PT Sans";
-            font-size: 11px;
+            font-size: 16px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
