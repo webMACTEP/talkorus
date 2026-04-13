@@ -503,7 +503,7 @@
   .hero-slider .heroSwiper {
     padding-top: 52px;
     width: 100%;
-    height: calc(60vh - 0px);
+    height: calc(55vh - 0px);
     position: relative;
     overflow: hidden;
   }
@@ -577,7 +577,7 @@
   .hero-slider .slide-content h2 {
     color: #fff;
     font-family: "PT Sans";
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -648,7 +648,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 31px;
+    gap: 39px;
   }
   .about-us__item {
     display: flex;
@@ -691,7 +691,7 @@
     width: 95px;
     height: 2px;
     background: #a9613d;
-    margin: 15px 0px 8px 0px;
+    margin: 15px 0px 15px 0px;
   }
   .about-us__media {
     width: 100%;
@@ -751,7 +751,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    padding: 30px 25px 29px 20px;
+    padding: 8px 25px 11px 20px;
     text-align: left;
     cursor: pointer;
     transition: 0.3s;
@@ -846,12 +846,12 @@
     border-color: #c8c8c8;
   }
   .catalog-section .catalog-card__image {
-    height: 200px;
+    height: 272px;
     max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 8px;
+    margin-bottom: 30px;
   }
   .catalog-section .catalog-card__image img {
     max-height: 100%;
@@ -865,7 +865,7 @@
     color: #54595f;
     text-align: center;
     font-family: "PT Sans";
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -881,7 +881,7 @@
     margin: 73px 0px 0px 0px;
   }
   .branded-stoves h2 {
-    margin: 0 0 20px;
+    margin: 0 0 9px;
     position: relative;
   }
   .branded-stoves__subtitle {
@@ -967,7 +967,7 @@
   }
   .branded-stoves__media {
     position: relative;
-    min-height: 542px;
+    min-height: 482px;
   }
   .branded-stoves__media img {
     position: absolute;
@@ -1193,8 +1193,7 @@
   }
   .bath-stoves__hotspot--1 .hotspot__tooltip {
     top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 0;
   }
   .bath-stoves__hotspot--2 {
     top: 90px;
@@ -1202,8 +1201,7 @@
   }
   .bath-stoves__hotspot--2 .hotspot__tooltip {
     top: 60px;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 0;
   }
   .bath-stoves__hotspot--3 {
     top: 307px;
@@ -1220,8 +1218,7 @@
   }
   .bath-stoves__hotspot--4 .hotspot__tooltip {
     top: 56px;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 0;
   }
   .projects-section h2 {
     margin: 0 0 20px 0;
