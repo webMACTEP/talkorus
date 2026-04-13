@@ -678,6 +678,11 @@
             text-align: left;
             cursor: pointer;
             transition: 0.3s;
+            &:hover {
+              .about-info__title{
+                color: #a9613d;
+              }
+            }
         }
 
         &__item.active &__head {
@@ -713,6 +718,8 @@
             font-style: normal;
             font-weight: 700;
             line-height: normal;
+
+            transition: 0.3s;
         }
 
         &__body {

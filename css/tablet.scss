@@ -712,6 +712,12 @@
             text-align: left;
             cursor: pointer;
             transition: 0.3s;
+
+             &:hover {
+              .about-info__title{
+                color: #a9613d;
+              }
+            }
         }
 
         &__item.active &__head {
@@ -749,6 +755,8 @@
             font-style: normal;
             font-weight: 700;
             line-height: normal;
+
+            transition: 0.3s;
         }
 
         &__body {
@@ -1047,7 +1055,7 @@
         }
 
         &--1 {
-            top: 0px;
+            top: 30px;
             left: -20px;
 
             .hotspot__tooltip {

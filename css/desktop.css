@@ -618,6 +618,9 @@
     cursor: pointer;
     transition: 0.3s;
   }
+  .about-info__head:hover .about-info__title {
+    color: #a9613d;
+  }
   .about-info__item.active .about-info__head {
     background: #ececec;
   }
@@ -647,6 +650,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    transition: 0.3s;
   }
   .about-info__body {
     max-height: 0;
