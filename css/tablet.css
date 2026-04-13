@@ -160,6 +160,9 @@
     max-height: 52px;
     box-shadow: 0 6px 8px -6px rgba(0, 0, 0, 0.15);
   }
+  header .burger {
+    cursor: pointer;
+  }
   header .burger.active .open {
     display: none;
   }
