@@ -39,6 +39,33 @@ $(document).ready(function () {
     $(".hotspot").removeClass("active");
   });
 
+  const $burger = $(".burger");
+  const $burgerMenu = $(".burger-menu");
+  const $body = $("body");
+
+  $burger.on("click", function (e) {
+    e.stopPropagation();
+
+    $burger.toggleClass("active");
+    $burgerMenu.toggleClass("active");
+    $body.toggleClass("hold");
+  });
+
+  $burgerMenu.on("click", function (e) {
+    e.stopPropagation();
+  });
+
+  $(document).on("click", function (e) {
+    if (
+      !$(e.target).closest(".burger, .burger-menu").length &&
+      $burgerMenu.hasClass("active")
+    ) {
+      $burger.removeClass("active");
+      $burgerMenu.removeClass("active");
+      $body.removeClass("hold");
+    }
+  });
+
   if ($(".heroSwiper").length) {
     new Swiper(".heroSwiper", {
       loop: true,
