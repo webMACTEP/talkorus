@@ -321,7 +321,10 @@
   footer .infos .politic:hover {
     text-decoration: underline;
   }
-  footer .infos .adress {
+  footer .infos .address span {
+    line-height: 2;
+  }
+  footer .infos .address {
     font-size: 14px;
   }
   footer .infos h2 {

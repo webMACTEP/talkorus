@@ -456,7 +456,10 @@
                     text-decoration: underline;
                 }
             }
-            .adress {
+            .address {
+                span{
+                    line-height: 2;
+                }
                 font-size: 11px;
             }
             h2 {
