@@ -52,10 +52,11 @@
             margin: 0px 15px;
             display: flex;
             flex-direction: column;
-            height: calc(100vh - 120px);
+            //height: calc(100vh - 120px);
+            height: 100vh;
         }
         .search-call {
-            margin-top: auto;
+            margin-top: 60px;
             display: flex;
             flex-direction: column;
             gap: 9px;
